@@ -1,0 +1,113 @@
+{
+  "n": 770,
+  "counties": {
+    "qx": {
+      "name_cn": "黔西市 Qianxi",
+      "n": 168
+    },
+    "qxg": {
+      "name_cn": "七星关区 Qixingguan",
+      "n": 125
+    },
+    "zj": {
+      "name_cn": "织金县 Zhijin",
+      "n": 122
+    },
+    "hz": {
+      "name_cn": "赫章县 Hezhang",
+      "n": 102
+    },
+    "js": {
+      "name_cn": "金沙县 Jinsha",
+      "n": 75
+    },
+    "ny": {
+      "name_cn": "纳雍县 Nayong",
+      "n": 72
+    },
+    "wn": {
+      "name_cn": "威宁彝族回族苗族自治县 Weining",
+      "n": 70
+    },
+    "df": {
+      "name_cn": "大方县 Dafang",
+      "n": 36
+    }
+  },
+  "folds": {
+    "df": {
+      "test_county": "df",
+      "name_cn": "大方县 Dafang",
+      "n_test": 36,
+      "n_val": 110,
+      "n_train": 624
+    },
+    "hz": {
+      "test_county": "hz",
+      "name_cn": "赫章县 Hezhang",
+      "n_test": 102,
+      "n_val": 100,
+      "n_train": 568
+    },
+    "js": {
+      "test_county": "js",
+      "name_cn": "金沙县 Jinsha",
+      "n_test": 75,
+      "n_val": 104,
+      "n_train": 591
+    },
+    "ny": {
+      "test_county": "ny",
+      "name_cn": "纳雍县 Nayong",
+      "n_test": 72,
+      "n_val": 105,
+      "n_train": 593
+    },
+    "qx": {
+      "test_county": "qx",
+      "name_cn": "黔西市 Qianxi",
+      "n_test": 168,
+      "n_val": 90,
+      "n_train": 512
+    },
+    "qxg": {
+      "test_county": "qxg",
+      "name_cn": "七星关区 Qixingguan",
+      "n_test": 125,
+      "n_val": 97,
+      "n_train": 548
+    },
+    "wn": {
+      "test_county": "wn",
+      "name_cn": "威宁彝族回族苗族自治县 Weining",
+      "n_test": 70,
+      "n_val": 105,
+      "n_train": 595
+    },
+    "zj": {
+      "test_county": "zj",
+      "name_cn": "织金县 Zhijin",
+      "n_test": 122,
+      "n_val": 97,
+      "n_train": 551
+    }
+  },
+  "random": {
+    "n_train": 539,
+    "n_val": 77,
+    "n_test": 154,
+    "test_county_composition": {
+      "qxg": 31,
+      "wn": 17,
+      "zj": 25,
+      "js": 16,
+      "hz": 12,
+      "ny": 12,
+      "qx": 30,
+      "df": 11
+    }
+  },
+  "negatives": {
+    "n": 2003
+  }
+}
